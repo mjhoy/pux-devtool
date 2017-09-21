@@ -12,7 +12,7 @@ import Pux.Html (button, div, h1, Html, i, span, text, svg, path)
 import Pux.Html (style) as Pux.Html
 import Pux.Html.Attributes (className, d, viewBox, style, dangerouslySetInnerHTML)
 import Pux.Html.Events (onClick)
-import Prelude ((#), (<), (>), (<>), (+), (-), ($), const, map, negate, not, bind, pure, show)
+import Prelude ((#), (<), (>), (<>), (+), (-), ($), const, map, negate, not, bind, pure, show, discard)
 
 data Action a
   = AppAction a
