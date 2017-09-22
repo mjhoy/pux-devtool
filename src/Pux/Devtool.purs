@@ -40,7 +40,7 @@ init s =
   , init: s
   , length: 1
   , index: 0
-  , opened: true
+  , opened: false
   , width: 360.0
   }
 
